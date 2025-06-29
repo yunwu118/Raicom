@@ -1,0 +1,20 @@
+# 这里的路径是相对与运行目录(一般为train.py程序)的路径，如不清楚如何填写，建议填写绝对路径，参考如下：
+# train: C:/Users/your_username/PycharmProjects/yolov5/source/images/train
+# val: C:/Users/your_username/PycharmProjects/yolov5/source/images/val
+train:  E:/Raicom/Drill/model_5/datasets/train/images
+val: E:/Raicom/Drill/model_5/datasets/val/images
+# nc为种类数量
+nc: 9
+# 名称，classes.txt，X-AnyLabeling中的群组编号顺序对应
+names:
+  0: 'cap_side'
+  1: 'cap'
+  2: 'bear_side'
+  3: 'bear'
+  4: 'clock_side'
+  5: 'clock'
+  6: 'banana_side'
+  7: 'banana'
+  8: 'rob'
+#   1: 'other'
+# 	2: ......
