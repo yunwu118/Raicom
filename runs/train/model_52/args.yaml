@@ -11,9 +11,9 @@ save: true
 save_period: -1
 cache: false
 device: '0'
-workers: 12
+workers: 15
 project: runs/train
-name: model_5
+name: model_52
 exist_ok: false
 pretrained: yolo11n.pt
 optimizer: auto
@@ -104,4 +104,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\train\model_5
+save_dir: runs\train\model_52
